@@ -57,9 +57,9 @@
 
     printf("MEDIAN ");
     if(i%2 == 1){ // i = 7, median = 3, = (i-1)/2
-        printf("%d\n", array[(i-1)/2]);
+        printf("%d", array[(i-1)/2]);
     }else{ //  i = 8, median = 3 (i/2)-1 dan 4 (i/2)
         median = (float)((array[(i/2)-1]+array[(i/2)])/2);
-        printf("%.2f\n", median);
+        printf("%.2f", median);
     }
  }

@@ -45,13 +45,12 @@
         }
     }
 
-    printf("COUNT %d\n", i);
+    printf("COUNT %d ", i);
 
     printf("SORTED ");
     for(int j = 0; j < i; j++){
         printf("%d ", array[j]);
     }
-    printf("\n");
 
     float median = 0;
 
